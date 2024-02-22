@@ -1,39 +1,56 @@
 .about-me-container {
-  height: 60%;
+  height: 80%;
   width: 100%;
-
-  border: 2px solid white;
 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
+
+  background-color: #C6DCBA;
+}
+
+.about-me-header {
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: white;
+
+  width: 100%;
+  text-align: center;
+
+  background-color: rgba(66, 65, 65, 0.345);
+  padding: 10px 0;
 }
 
 .header-picture-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-}
+  align-items: center;
+  gap: 100px;
 
-.about-me-header {
-  
+  width: 100%;
 }
 
 .profile-picture {
   height: 200px;
-  width: 150px;
+  width: 200px;
 
-  border-radius: 50%;
+  border-radius: 50px;
 }
 
 .paragraph-container {
   display: flex;
   justify-content: center;
+
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .about-me-paragraph {
-  font-size: 20px;
+  font-size: 30px;
 
   max-width: 50%;
 }

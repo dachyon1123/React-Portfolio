@@ -1,6 +1,38 @@
 .footer-container {
-  height: 20%;
+  height: 10%;
   width: 100%;
 
-  border: 2px solid white;
+  background-color: #BBC3A4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-container {
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.img-container {
+  height: 100px;
+  width: 100px;
+}
+
+.github-logo {
+  height: 100px;
+  width: 100px;
+}
+
+.linkedin-logo {
+  height: 100px;
+  width: 100px;
+}
+
+.instagram-logo {
+  height: 100px;
+  width: 100px;
 }
